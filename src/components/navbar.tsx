@@ -22,9 +22,9 @@ const Navbar = () => {
                 Pages <i className="bi bi-chevron-down ms-1"></i>
               </a>
               <ul className="dropdown-menu" aria-labelledby="pagesExample">
-                <li><a className="dropdown-item" href={`${import.meta.env.BASE_URL}landing/`}>Landing Page</a></li>
-                <li><a className="dropdown-item" href={`${import.meta.env.BASE_URL}product/`}>Product Page</a></li>
-                <li><a className="dropdown-item" href={`${import.meta.env.BASE_URL}shopping-cart/`}>Shopping Cart</a></li>
+                <li><a className="dropdown-item" href={`${import.meta.env.BASE_URL}/landing/`}>Landing Page</a></li>
+                <li><a className="dropdown-item" href={`${import.meta.env.BASE_URL}/product/`}>Product Page</a></li>
+                <li><a className="dropdown-item" href={`${import.meta.env.BASE_URL}/shopping-cart/`}>Shopping Cart</a></li>
               </ul>
             </li>
             <li className="nav-item">

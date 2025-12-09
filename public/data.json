@@ -1,366 +1,191 @@
 {
   "products": [
     {
-      "id": "01",
-      "thumb_src": "/images/suit-3.jpg",
-      "thumb_alt": "watch-image",
-      "images": [
-        {
-          "src": "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
-          "alt": "first_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-          "alt": "second_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1513116476489-7635e79feb27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-          "alt": "third_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
-          "alt": "fourth_image"
-        }
+      "id": "salve-2oz",
+      "title": "CBD Salve – 2 oz Jar",
+      "price": 35,
+      "thumb_src": "/images/cbd-salve.jpg",
+      "thumb_alt": "Flera CBD Salve 2 oz jar",
+      "type": "Salve",
+      "description": "1,925 mg total CBD • 35 mg/ml • THC-free*",
+      "highlights": ["Rich, slow-absorbing relief", "Mango + Shea butter base", "Custom anti-inflammatory formula"],
+      "details": "Flera Biosystems' original product. Custom formulated and handcrafted, our salve features 35mg/ml of THC-free CBD isolate. Safflower oil, widely regarded as the most effective topical anti-inflammatory carrier, combines with jojoba, tea tree, and lavender to calm irritation and promote recovery. Beeswax forms a non-greasy protective barrier while mango and shea butter provide great moisturizing. The 35 mg/ml concentration is optimized for targeted, potent topical relief, and was chosen based on clinical literature and our own testing as providing the best effects.",
+      "ingredients": [
+        "THC-free CBD isolate (1,925 mg total, ~0% THC)",
+        "Mangifera indica (Mango) butter — [wound healing](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
+        "Butyrospermum parkii (Shea) butter — [anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/22499721/)",
+        "Carthamus tinctorius (Safflower) oil — [topical edema reduction](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Simmondsia chinensis (Jojoba) oil — [anti-inflammatory wax ester](https://pubmed.ncbi.nlm.nih.gov/15629254/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [reduces histamine flare](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing & inflammation](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Beeswax — [barrier repair in dermatitis](https://pubmed.ncbi.nlm.nih.gov/15022655/)",
+        "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
       ],
-      "color": "8 colors",
-      "colors": [
-        "red", 
-        "blue", 
-        "green"
-      ],
-      "title": "Basic Starter Pack",
-      "price": 399,
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out.",
-      "details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
-      "highlights": [
-        "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-        "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-        "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-      ],
-      "features": [
-        "Multiple strap configuration",
-        "Water Resistant",
-        "Stainless strap loops",
-        "Ultra-soft 100% cotton"
-      ],
-      "rating": 4,
-      "reviews": 117,
-      "size": "Small",
-      "sizes": {
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 1213,
-        "XL": 6
-      },
-      "data": {
-        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-      },
-      "featuresDetails": {
-        "Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-        "Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-        "Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-      },
-      "stock": true
+      "square_link": "https://square.link/u/3g5Hgd1y"
     },
     {
-      "id": "02",
-      "thumb_src": "/images/suit-1.jpg",
-      "thumb_alt": "watch-image",
-      "images": [
-        {
-          "src": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-          "alt": "first_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-          "alt": "second_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1508296695146-257a814070b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-          "alt": "third_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1522125123931-9304d91a42ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-          "alt": "fourth_image"
-        }
+      "id": "salve-4oz",
+      "title": "CBD Salve – 4 oz Jar",
+      "price": 50,
+      "thumb_src": "/images/cbd-salve.jpg",
+      "thumb_alt": "Flera CBD Salve 4 oz jar",
+      "type": "Salve",
+      "description": "3,850 mg total CBD • 35 mg/ml • Best Value • THC-free*",
+      "highlights": ["Double the amount", "Same premium formula", "Ideal for daily users"],
+      "details": "The same custom-formulated, THC-free salve, but in our largest size premium glass jar. The best value. Flera Biosystems' original product. Custom formulated and handcrafted, our salve features 35mg/ml of THC-free CBD isolate. Safflower oil, widely regarded as the most effective topical anti-inflammatory carrier, combines with jojoba, tea tree, and lavender to calm irritation and promote recovery. Beeswax forms a non-greasy protective barrier while mango and shea butter provide great moisturizing. The 35 mg/ml concentration is optimized for targeted, potent topical relief, and was chosen based on clinical literature and our own testing as providing the best effects.",
+      "ingredients": [
+        "THC-free CBD isolate (3,850 mg total, ~0% THC)",
+        "Mangifera indica (Mango) butter — [wound healing](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
+        "Butyrospermum parkii (Shea) butter — [anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/22499721/)",
+        "Carthamus tinctorius (Safflower) oil — [topical edema reduction](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Argania spinosa (Argan) oil — [reduces burn inflammation](https://pubmed.ncbi.nlm.nih.gov/26978857/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [reduces histamine flare](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing & inflammation](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Beeswax — [barrier repair in dermatitis](https://pubmed.ncbi.nlm.nih.gov/15022655/)",
+        "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
       ],
-      "color": "Black",
-      "colors": ["black", "green", "white"],
-      "title": "Pink Blouse",
-      "price": 1490,
-      "rating": 5,
-      "reviews": 117,
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
-      "features": [
-        "Multiple strap configuration",
-        "Water Resistant",
-        "Stainless strap loops",
-        "Ultra-soft 100% cotton"
-      ],
-      "size": "Medium",
-      "sizes": {
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 0,
-        "XL": 6
-      },
-      "data": {
-        "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-        "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-        "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-        "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-      },
-      "featuresDetails": {
-        "Origin": "Designed by Good Goods, Inc.",
-        "Material": "Solid walnut base with rare earth magnets and powder coated steel card cover",
-        "Dimensions": "6.25 x 3.55' x 1.15'",
-        "Finish": "Hand sanded and finished with natural oil",
-        "Includes": "Wood card tray and 3 refill packs",
-        "Considerations": "Made from natural materials. Grain and color vary with each item."
-      },
-      "stock": false
+      "square_link": "https://square.link/u/VfzGVeB5"
     },
     {
-      "id": "03",
-      "thumb_src": "/images/suit-2.jpg",
-      "thumb_alt": "iMac-image",
-      "images": [
-        {
-          "src": "https://images.unsplash.com/photo-1567790350645-dbc1486a89c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "first_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1593088177922-aa1c5055c7b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "second_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1635594202056-9ea3b497e5c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "third_image"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1593085260707-5377ba37f868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-          "alt": "fourth_image"
-        }
+      "id": "lotion-2oz",
+      "title": "CBD Lotion – 2 oz Jar",
+      "price": 35,
+      "thumb_src": "/images/cbd-lotion.jpg",
+      "thumb_alt": "Flera CBD Lotion 2 oz jar",
+      "type": "Lotion",
+      "description": "1,925 mg total CBD • 35 mg/ml • Fast-absorbing • THC-free*",
+      "highlights": ["Non-greasy", "Lavender & Tea Tree scent", "Daily moisturizer"],
+      "details": "A new offering from Flera Biosystems, our lightweight, spreadable lotion was custom-formulated in-house with THC-free CBD isolate. This lotion was designed for people desiring a more readily spreadable formulation than our salve. Naturally derived emulsifiers create a silky texture that absorbs quickly without residue. Glycerine draws in moisture, while lavender and tea tree provide a calming aroma and gentle antimicrobial and anti-inflammatory activity. The 35 mg/ml concentration is ideal for broader, daily topical use.",
+      "ingredients": [
+        "THC-free CBD isolate (1,925 mg total, ~0% THC)",
+        "Carthamus tinctorius (Safflower) oil or Prunus armeniaca (Apricot kernel) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Mangifera indica (Mango) butter or Butyrospermum parkii (Shea) butter — [skin repair](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
+        "BTMS-50",
+        "MilliQ ultrapure water",
+        "Glycerine",
+        "Xanthan gum",
+        "EDTA",
+        "Phenoxyethanol",
+        "Citric acid or ascorbic acid",
+        "Liquid Germall Plus"
       ],
-      "color": "Yellow",
-      "colors": ["SpaceGray"],
-      "title": "Premium Suit",
-      "description": "There’s nothing I really wanted to do in life that I wasn’t able to get good at.",
-      "price": 1399,
-      "size": "Large",
-      "sizes": {
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 0,
-        "XL": 6
-      },
-      "data": {
-        "Design": "If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
-        "Material": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? People are so scared to lose that they don't even try.",
-        "Considerations": "I always felt like I could do anything. That’s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can’t do anything, you won’t do anything. I was taught I could do everything.",
-        "Included": "We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game of life you need to appreciate every moment. A lot of people don’t appreciate the moment until it’s passed."
-      },
-      "stock": true
+      "square_link": "https://square.link/u/v9fzUtKw"
     },
     {
-      "id": "04",
-      "thumb_src": "/images/suit-5.jpg",
-      "thumb_alt": "iPhone_thumb",
-      "color": "Blue",
-      "title": "iPhone",
-      "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-      "price": 1599,
-      "size": "Small",
-      "sizes": {
-        "XS": 3,
-        "S": 0,
-        "M": 1,
-        "L": 0,
-        "XL": 6
-      },
-      "stock": false
+      "id": "lotion-4oz",
+      "title": "CBD Lotion – 4 oz Jar",
+      "price": 50,
+      "thumb_src": "/images/cbd-lotion.jpg",
+      "thumb_alt": "Flera CBD Lotion 4 oz jar",
+      "type": "Lotion",
+      "description": "3,850 mg total CBD • 35 mg/ml • Full-body hydration • THC-free*",
+      "highlights": ["Large size", "Same silky formula", "Perfect for daily routines"],
+      "details": "Our best value lotion size. A 4 oz. premium glass jar with the same fast-absorbing, naturally derived, high CBD formula.",
+      "ingredients": [
+        "THC-free CBD isolate (3,850 mg total, ~0% THC)",
+        "Carthamus tinctorius (Safflower) oil or Prunus armeniaca (Apricot kernel) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Mangifera indica (Mango) butter and Butyrospermum parkii (Shea) butter — [skin repair](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
+        "BTMS-50",
+        "MilliQ ultrapure water",
+        "Glycerine",
+        "Xanthan gum",
+        "EDTA",
+        "Phenoxyethanol",
+        "Citric acid or ascorbic acid",
+        "Liquid Germall Plus"
+      ],
+      "square_link": "https://square.link/u/t08KffxW"
+    },
+    {
+      "id": "lotion-1oz-tube",
+      "title": "CBD Lotion – 1 oz Travel Tube",
+      "price": 20,
+      "thumb_src": "/images/cbd-lotion.jpg",
+      "thumb_alt": "Flera CBD Lotion 1 oz travel tube",
+      "type": "Lotion",
+      "description": "975 mg total CBD • 35 mg/ml • Travel-friendly • THC-free*",
+      "highlights": ["TSA-approved", "Squeeze tube", "Same premium formula"],
+      "details": "A portable version of our custom lotion — perfect for your purse, gym bag, or travel.",
+      "ingredients": [
+        "THC-free CBD isolate (975 mg total, ~0% THC)",
+        "Carthamus tinctorius (Safflower) oil or Prunus armeniaca (Apricot kernel) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Mangifera indica (Mango) butter and Butyrospermum parkii (Shea) butter — [skin repair](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
+        "BTMS-50",
+        "MilliQ ultrapure water",
+        "Glycerine",
+        "Xanthan gum",
+        "EDTA",
+        "Phenoxyethanol",
+        "Citric acid or ascorbic acid",
+        "Liquid Germall Plus"
+      ],
+      "square_link": "https://square.link/u/sTTC42Tz"
+    },
+    {
+      "id": "massage-oil",
+      "title": "CBD Massage Oil – 3.4 oz Bottle",
+      "price": 33,
+      "thumb_src": "/images/cbd-massage-oil.jpg",
+      "thumb_alt": "Flera CBD Massage Oil 3.4 oz bottle",
+      "type": "Massage Oil",
+      "description": "1,500 mg total CBD • 15 mg/ml • Excellent glide • THC-free*",
+      "highlights": ["Long-lasting slip", "Warming sensation", "Therapist favorite"],
+      "details": "A Custom-blended massage oil with THC-free CBD at 15 mg/ml — ideal for generous application. Apricot kernel and jojoba oils provide exceptional glide and skin nourishment without greasiness, while safflower and argan enhance anti-inflammatory effects. Lavender and tea tree oils add therapeutic aroma while also acting as anti-inflammatory and antimicrobials.",
+      "ingredients": [
+        "THC-free CBD isolate (1,500 mg total, ~0% THC)",
+        "Prunus armeniaca (Apricot) oil",
+        "Simmondsia chinensis (Jojoba) oil — [anti-inflammatory wax ester](https://pubmed.ncbi.nlm.nih.gov/15629254/)",
+        "Carthamus tinctorius (Safflower) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Argania spinosa (Argan) oil — [reduces burn inflammation](https://pubmed.ncbi.nlm.nih.gov/26978857/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Beeswax — [barrier repair](https://pubmed.ncbi.nlm.nih.gov/15022655/)",
+        "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
+      ],
+      "square_link": "https://square.link/u/zwMzUr1H"
+    },
+    {
+      "id": "massage-oil-8oz",
+      "title": "CBD Massage Oil – 8 oz Bottle",
+      "price": 55,
+      "thumb_src": "/images/cbd-massage-oil.jpg",
+      "thumb_alt": "Flera CBD Massage Oil 8 oz bottle",
+      "type": "Massage Oil",
+      "description": "3,500 mg total CBD • 15 mg/ml • Professional size • THC-free*",
+      "highlights": ["Economy professional size", "Extended sessions", "Same therapeutic blend"],
+      "details": "A large bottle for practitioners or heavy home users. Same custom THC-free formula with superior glide from apricot and jojoba oils.",
+      "ingredients": [
+        "THC-free CBD isolate (3,500 mg total, ~0% THC)",
+        "Prunus armeniaca (Apricot) oil",
+        "Simmondsia chinensis (Jojoba) oil — [anti-inflammatory wax ester](https://pubmed.ncbi.nlm.nih.gov/15629254/)",
+        "Carthamus tinctorius (Safflower) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Argania spinosa (Argan) oil — [reduces burn inflammation](https://pubmed.ncbi.nlm.nih.gov/26978857/)",
+        "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
+        "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
+        "Beeswax — [barrier repair](https://pubmed.ncbi.nlm.nih.gov/15022655/)",
+        "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
+      ],
+      "square_link": "https://square.link/u/MwMQ4T6g"
     }
   ],
+
   "categories": [
-    {
-      "thumb_src": "/images/category1.jpg",
-      "title": "Silk Dresses",
-      "collection": "Pre-fall"
-    },
-    {
-      "thumb_src": "/images/category2.jpg",
-      "title": "Suits",
-      "collection": "Designers"
-    },
-    {
-      "thumb_src": "/images/category3.jpg",
-      "title": "Festival",
-      "collection": "Summer"
-    },
-    {
-      "thumb_src": "/images/category4.jpg",
-      "title": "Showroom",
-      "collection": "Sale"
-    },
-    {
-      "thumb_src": "/images/product10.jpg",
-      "title": "Living Sofas",
-      "collection": "Interior Design"
-    },
-    {
-      "thumb_src": "/images/category5.jpg",
-      "title": "Chairs by Designers",
-      "collection": "Sale"
-    },
-    {
-      "thumb_src": "/images/product9.jpg",
-      "title": "Home care",
-      "collection": "Products"
-    }
+    { "title": "All Products",    "collection": "Shop All",     "thumb_src": "/images/category-all.jpg" },
+    { "title": "Salves",          "collection": "Topicals",     "thumb_src": "/images/cbd-salve.jpg" },
+    { "title": "Lotions",         "collection": "Daily Care",   "thumb_src": "/images/cbd-lotion.jpg" },
+    { "title": "Massage Oils",    "collection": "Professional", "thumb_src": "/images/cbd-massage-oil.jpg" }
   ],
-  "reviews": [
-    {
-      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Hector Gibbs",
-      "date": "July 17, 2023",
-      "rating": 5,
-      "comment": "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others. We get back stabbed by friends. ",
-      "productID": "01"
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Willie Manson",
-      "date": "Aug 18, 2023",
-      "rating": 4,
-      "comment": "It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter.",
-      "productID": "01"
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Mary Doyle",
-      "date": "Nov 11, 2023",
-      "rating": 5,
-      "comment": "It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn’t matter.",
-      "productID": "01"
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Joe Molly",
-      "date": "Mar 23, 2023",
-      "rating": 3,
-      "comment": "It’s like a little kid, a little boy, looking at colors, and no one told him what colors are good, before somebody tells you you shouldn’t like pink.",
-      "productID": "01"
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Keisha Megan",
-      "date": "Jun 21, 2023",
-      "rating": 4,
-      "comment": "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-      "productID": "01"
-    },
-    {
-      "avatar": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80",
-      "name": "Kevin Klein",
-      "date": "Dec 01, 2023",
-      "rating": 5,
-      "comment": "Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible to get a pure thought out.",
-      "productID": "01"
-    }
-  ],
-  "orders": [
-    {
-      "orderNumber": 23791,
-      "products": [
-        {
-          "id": "01",
-          "status": "Processed",
-          "quantity": 1,
-          "dateModified": "March 23, 2023"
-        },
-        {
-          "id": "02",
-          "status": "Delivered",
-          "quantity": 3,
-          "dateModified": "June 28, 2023"
-        }
-      ],
-      "payment": {
-        "cardNumber": "0042",
-        "expiringDate": "06/26"
-      },
-      "date": "March 23, 2023",
-      "address": "362 Ridgewood, Alaska 99669, USA",
-      "email": "michael@email.com",
-      "phoneNumber": "(808) 791-6935"
-    },
-    {
-      "orderNumber": "WB2341",
-      "products": [
-        {
-          "id": "03",
-          "status": "Order Placed",
-          "quantity": 1,
-          "dateModified": "March 23, 2023"
-        }
-      ],
-      "payment": {
-        "cardNumber": "4119",
-        "expiringDate": "06/26"
-      },
-      "date": "March 28, 2023",
-      "address": "362 Ridgewood Dr, Soldotna, Alaska 99669, USA",
-      "email": "john@email.com",
-      "phoneNumber": "(307) 612-7721"
-    },
-    {
-      "orderNumber": "010110",
-      "products": [
-        {
-          "id": "04",
-          "status": "Order Placed",
-          "quantity": 1,
-          "dateModified": "Sep 09, 2023"
-        },
-        {
-          "id": "01",
-          "status": "Shipped",
-          "quantity": 1,
-          "dateModified": "Sep 12, 2023"
-        },
-        {
-          "id": "02",
-          "status": "Delivered",
-          "quantity": 1,
-          "dateModified": "Sep 13, 2023"
-        }
-      ],
-      "payment": {
-        "cardNumber": "5290",
-        "expiringDate": "11/27"
-      },
-      "date": "Sep 07, 2023",
-      "address": "362 Ridgewood, Alaska 99669, USA",
-      "email": "doe@email.com",
-      "phoneNumber": "(307) 682-8835"
-    }
-  ],
-  "shoppingCart": [
-    "01", 
-    "02", 
-    "03"
-  ],
-  "shoppingCart2": [ 
-    "02", 
-    "03",
-    "04"
-  ]
+
+  "shoppingCart": ["salve-2oz", "lotion-4oz"],
+  "shoppingCart2": ["massage-oil-8oz", "lotion-1oz-tube"],
+
+  "reviews": [],
+
+  "note": "*All CBD is third-party tested and certified below 0.3% THC (typically undetectable)"
 }

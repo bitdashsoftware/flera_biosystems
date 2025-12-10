@@ -15,7 +15,8 @@ interface Props {
   details: string;
   rating: number;
   reviews: number;
-  sizes: Map<string,number>
+  sizes: Map<string,number>;
+  ingredients?: string[];
 }
 
 export default function ProductOverview({
@@ -28,8 +29,36 @@ export default function ProductOverview({
   details,
   rating,
   reviews,
-  sizes
+  sizes,
+  ingredients
 }: Props) {
+
+  // Helper function to parse markdown-style links in ingredient strings
+  const parseIngredient = (ingredient: string) => {
+    const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+    const parts = [];
+    let lastIndex = 0;
+    let match;
+
+    while ((match = linkRegex.exec(ingredient)) !== null) {
+      // Add text before the link
+      if (match.index > lastIndex) {
+        parts.push(ingredient.substring(lastIndex, match.index));
+      }
+      // Add the link
+      parts.push(
+        <a key={match.index} href={match[2]} target="_blank" rel="noopener noreferrer" className="text-primary">
+          {match[1]}
+        </a>
+      );
+      lastIndex = match.index + match[0].length;
+    }
+    // Add remaining text after the last link
+    if (lastIndex < ingredient.length) {
+      parts.push(ingredient.substring(lastIndex));
+    }
+    return parts.length > 0 ? parts : ingredient;
+  };
 
   return (
     <>
@@ -47,7 +76,7 @@ export default function ProductOverview({
           }
 
           <form action="" method="post">
-            {(price.length != 0) && 
+            {(price != 0) && 
               <div className="d-flex">
                 <h3 className="font-weight-normal">${price.toLocaleString()}</h3>
                 <input className="opacity-0" defaultValue={price} />
@@ -75,7 +104,7 @@ export default function ProductOverview({
       <div className="row mt-5">
         <div className="col-12 col-lg-6">
           <h4>Product Description</h4>
-          <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a compliment.</p>
+          <p>There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment.</p>
           {(highlights.length != 0) && 
            <>
              <h6>Benefits</h6>
@@ -92,6 +121,18 @@ export default function ProductOverview({
               <p>{details}</p>
             </>
            }
+          {(ingredients && ingredients.length > 0) && 
+            <>
+              <h6 className="mt-4">Ingredients</h6>
+              <ul className="text-sm">
+                {ingredients.map((ingredient, index) => (
+                  <li key={index} className="mb-2">
+                    {parseIngredient(ingredient)}
+                  </li>
+                ))}
+              </ul>
+            </>
+          }
         </div>
       </div>
     </div>

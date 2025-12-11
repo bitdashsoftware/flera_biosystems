@@ -30,7 +30,7 @@ export default function ProductAccordion({
             </div>
           
             <div className="col-12 col-lg-6 mb-lg-0 mb-4">
-              <img className="w-100 rounded-3" src={images[0].src} alt={images[0].alt} />
+              <img className="w-100 rounded-3" src={`${import.meta.env.BASE_URL}${images[0].src}`} alt={images[0].alt} />
             </div>
           </div>
         </div>

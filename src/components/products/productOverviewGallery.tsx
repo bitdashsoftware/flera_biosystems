@@ -15,7 +15,7 @@ interface Props {
   rating: number;
   reviews: number;
   full_description: string;
-  data: Map<string,string>
+  data: Map<string,string | string[]>;
 }
 
 export default function productOverviewGallery({
@@ -40,7 +40,7 @@ export default function productOverviewGallery({
           {(title.length != 0) && 
             <h2>{title}</h2>
           }
-          {(price.length != 0) && 
+          {(price != 0) && 
             <>
               <div className="d-flex mb-3">
                 <h4 className="font-weight-normal">${price.toLocaleString()}</h4>

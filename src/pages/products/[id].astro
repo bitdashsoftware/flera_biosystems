@@ -1,0 +1,81 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import data from '../../../public/data.json';
+import '../../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../../components/navbar';
+import CardProduct from '../../components/products/cardProduct';
+import ProductOverviewGrid from '../../components/products/productOverviewGrid';
+import StoreDoubleColumn from '../../components/store/storeDoubleColumn';
+import ReviewSummaryChart from '../../components/reviews/reviewSummaryChart';
+
+// Export getStaticPaths to generate all product pages at build time
+export async function getStaticPaths() {
+  return data.products.map((product) => ({
+    params: { id: product.id },
+  }));
+}
+
+// Get product ID from route params
+const { id } = Astro.params;
+
+// Find product by ID
+const product = data.products.find(p => p.id === id);
+
+// If product not found, return 404
+if (!product) {
+  return Astro.redirect('/404');
+}
+
+// Filter reviews for this product (using product ID)
+let productReviews = data.reviews.filter(x => x.productID === id);
+
+// Extract ingredients from data object
+let productIngredients = product.data?.Ingredients;
+---
+
+<Layout title={product.title}>
+	<main>
+    <Navbar />
+    <div class="container mt-5">
+      <ProductOverviewGrid  
+        colors={product.colors}
+        images={product.images}
+        title={product.title}
+        full_description={product.full_description}
+        price={product.price}
+        highlights={product.highlights}
+        details={product.details}
+        rating={product.rating}
+        reviews={product.reviews}
+        sizes={product.sizes}
+        ingredients={productIngredients}
+      />    
+
+      {productReviews.length > 0 && (
+        <div class="my-5">
+          <ReviewSummaryChart reviews={productReviews} />
+        </div>
+      )}
+
+      <div class="row">
+        <h5 class="mb-4">Customers also purchased</h5>
+        {data.products.filter(p => p.id !== id).slice(0, 4).map(relatedProduct => 
+          <div class="col-md-6 col-lg-3">
+            <CardProduct 
+              thumb_src = {relatedProduct.thumb_src}
+              thumb_alt = {relatedProduct.thumb_alt}
+              color = {relatedProduct.color}
+              title = {relatedProduct.title}
+              price = {relatedProduct.price}
+              position = "left"
+              productId = {relatedProduct.id}
+            />
+          </div>
+        )}        
+      </div>
+      <hr class="dark horizontal my-5" />
+      <StoreDoubleColumn />
+    </div>
+  </main>
+</Layout>
+

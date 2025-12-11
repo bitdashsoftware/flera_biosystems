@@ -17,6 +17,11 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navigation">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href={`${baseUrl}home/`}>
+                HomepageV2
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href={baseUrl}>
                 All Components
               </a>

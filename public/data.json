@@ -1,5 +1,5 @@
 {
-  "products": [
+  "products":[
     {
       "id": "salve-2oz",
       "title": "CBD Salve – 2 oz Jar",
@@ -7,11 +7,39 @@
       "thumb_src": "/images/cbd-salve.jpg",
       "thumb_alt": "Flera CBD Salve 2 oz jar",
       "type": "Salve",
-      "description": "1,925 mg total CBD • 35 mg/ml • THC-free*",
+      "description": "2,100 mg total CBD • 35 mg/ml • THC-free*",
       "highlights": ["Rich, slow-absorbing relief", "Mango + Shea butter base", "Custom anti-inflammatory formula"],
       "details": "Flera Biosystems' original product. Custom formulated and handcrafted, our salve features 35mg/ml of THC-free CBD isolate. Safflower oil, widely regarded as the most effective topical anti-inflammatory carrier, combines with jojoba, tea tree, and lavender to calm irritation and promote recovery. Beeswax forms a non-greasy protective barrier while mango and shea butter provide great moisturizing. The 35 mg/ml concentration is optimized for targeted, potent topical relief, and was chosen based on clinical literature and our own testing as providing the best effects.",
+      "full_description": "Flera Biosystems' original product. Custom formulated and handcrafted, our salve features 35mg/ml of THC-free CBD isolate. Safflower oil, widely regarded as the most effective topical anti-inflammatory carrier, combines with jojoba, tea tree, and lavender to calm irritation and promote recovery. Beeswax forms a non-greasy protective barrier while mango and shea butter provide great moisturizing. The 35 mg/ml concentration is optimized for targeted, potent topical relief, and was chosen based on clinical literature and our own testing as providing the best effects.",
+      "colors": ["#FFD700", "#FFA500", "#8B4513"],
+      "images": [
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 2 oz jar"},
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 2 oz jar side view"},
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 2 oz jar detail"},
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 2 oz jar close-up"}
+      ],
+      "rating": 4.5,
+      "reviews": 127,
+      "sizes": {
+        "2 oz": 35,
+        "4 oz": 50
+      },
+      "featuresDetails": {
+        "CBD Concentration": "35 mg/ml",
+        "Total CBD": "2,100 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "2 oz",
+        "Application": "Topical"
+      },
+      "data": {
+        "Material": "Premium glass jar with custom formulation",
+        "Function": "Targeted topical relief and anti-inflammatory support",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply to affected area and massage gently. Use as needed."
+      },
+      "stock": true,
       "ingredients": [
-        "THC-free CBD isolate (1,925 mg total, ~0% THC)",
+        "THC-free CBD isolate (2,100 mg total, ~0% THC)",
         "Mangifera indica (Mango) butter — [wound healing](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
         "Butyrospermum parkii (Shea) butter — [anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/22499721/)",
         "Carthamus tinctorius (Safflower) oil — [topical edema reduction](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
@@ -30,18 +58,46 @@
       "thumb_src": "/images/cbd-salve.jpg",
       "thumb_alt": "Flera CBD Salve 4 oz jar",
       "type": "Salve",
-      "description": "3,850 mg total CBD • 35 mg/ml • Best Value • THC-free*",
+      "description": "4,200 mg total CBD • 35 mg/ml • Best Value • THC-free*",
       "highlights": ["Double the amount", "Same premium formula", "Ideal for daily users"],
       "details": "The same custom-formulated, THC-free salve, but in our largest size premium glass jar. The best value. Flera Biosystems' original product. Custom formulated and handcrafted, our salve features 35mg/ml of THC-free CBD isolate. Safflower oil, widely regarded as the most effective topical anti-inflammatory carrier, combines with jojoba, tea tree, and lavender to calm irritation and promote recovery. Beeswax forms a non-greasy protective barrier while mango and shea butter provide great moisturizing. The 35 mg/ml concentration is optimized for targeted, potent topical relief, and was chosen based on clinical literature and our own testing as providing the best effects.",
+      "full_description": "The same custom-formulated, THC-free salve, but in our largest size premium glass jar. The best value. Flera Biosystems' original product. Custom formulated and handcrafted, our salve features 35mg/ml of THC-free CBD isolate. Safflower oil, widely regarded as the most effective topical anti-inflammatory carrier, combines with jojoba, tea tree, and lavender to calm irritation and promote recovery. Beeswax forms a non-greasy protective barrier while mango and shea butter provide great moisturizing. The 35 mg/ml concentration is optimized for targeted, potent topical relief, and was chosen based on clinical literature and our own testing as providing the best effects.",
+      "colors": ["#FFD700", "#FFA500", "#8B4513"],
+      "images": [
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 4 oz jar"},
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 4 oz jar side view"},
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 4 oz jar detail"},
+        {"src": "/images/cbd-salve.jpg", "alt": "Flera CBD Salve 4 oz jar close-up"}
+      ],
+      "rating": 4.7,
+      "reviews": 89,
+      "sizes": {
+        "2 oz": 35,
+        "4 oz": 50
+      },
+      "featuresDetails": {
+        "CBD Concentration": "35 mg/ml",
+        "Total CBD": "4,200 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "4 oz",
+        "Application": "Topical"
+      },
+      "data": {
+        "Material": "Premium glass jar with custom formulation",
+        "Function": "Targeted topical relief and anti-inflammatory support",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply to affected area and massage gently. Use as needed."
+      },
+      "stock": true,
       "ingredients": [
-        "THC-free CBD isolate (3,850 mg total, ~0% THC)",
+        "THC-free CBD isolate (4,200 mg total, ~0% THC)",
         "Mangifera indica (Mango) butter — [wound healing](https://pubmed.ncbi.nlm.nih.gov/31657094/)",
         "Butyrospermum parkii (Shea) butter — [anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/22499721/)",
         "Carthamus tinctorius (Safflower) oil — [topical edema reduction](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
         "Argania spinosa (Argan) oil — [reduces burn inflammation](https://pubmed.ncbi.nlm.nih.gov/26978857/)",
         "Melaleuca alternifolia (Tea Tree) oil — [reduces histamine flare](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
         "Lavandula angustifolia (Lavender) oil — [wound healing & inflammation](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
-        "Beeswax — [barrier repair in dermatitis](https://pubmed.ncbi.nlm.nih.gov/15022655/)",
+        "Beeswax",
         "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
       ],
       "square_link": "https://square.link/u/VfzGVeB5"
@@ -50,14 +106,43 @@
       "id": "lotion-2oz",
       "title": "CBD Lotion – 2 oz Jar",
       "price": 35,
-      "thumb_src": "/images/cbd-lotion.jpg",
+      "thumb_src": "/images/flera_biosystems.jpg",
       "thumb_alt": "Flera CBD Lotion 2 oz jar",
       "type": "Lotion",
-      "description": "1,925 mg total CBD • 35 mg/ml • Fast-absorbing • THC-free*",
+      "description": "2,100 mg total CBD • 35 mg/ml • Fast-absorbing • THC-free*",
       "highlights": ["Non-greasy", "Lavender & Tea Tree scent", "Daily moisturizer"],
       "details": "A new offering from Flera Biosystems, our lightweight, spreadable lotion was custom-formulated in-house with THC-free CBD isolate. This lotion was designed for people desiring a more readily spreadable formulation than our salve. Naturally derived emulsifiers create a silky texture that absorbs quickly without residue. Glycerine draws in moisture, while lavender and tea tree provide a calming aroma and gentle antimicrobial and anti-inflammatory activity. The 35 mg/ml concentration is ideal for broader, daily topical use.",
+      "full_description": "A new offering from Flera Biosystems, our lightweight, spreadable lotion was custom-formulated in-house with THC-free CBD isolate. This lotion was designed for people desiring a more readily spreadable formulation than our salve. Naturally derived emulsifiers create a silky texture that absorbs quickly without residue. Glycerine draws in moisture, while lavender and tea tree provide a calming aroma and gentle antimicrobial and anti-inflammatory activity. The 35 mg/ml concentration is ideal for broader, daily topical use.",
+      "colors": ["#E6E6FA", "#DDA0DD", "#98FB98"],
+      "images": [
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 2 oz jar"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 2 oz jar side view"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 2 oz jar detail"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 2 oz jar close-up"}
+      ],
+      "rating": 4.6,
+      "reviews": 94,
+      "sizes": {
+        "1 oz": 20,
+        "2 oz": 35,
+        "4 oz": 50
+      },
+      "featuresDetails": {
+        "CBD Concentration": "35 mg/ml",
+        "Total CBD": "2,100 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "2 oz",
+        "Application": "Topical, fast-absorbing"
+      },
+      "data": {
+        "Material": "Premium glass jar with silky lotion formula",
+        "Function": "Daily moisturizing with CBD anti-inflammatory benefits",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply to desired area and massage until absorbed. Safe for daily use."
+      },
+      "stock": true,
       "ingredients": [
-        "THC-free CBD isolate (1,925 mg total, ~0% THC)",
+        "THC-free CBD isolate (2,100 mg total, ~0% THC)",
         "Carthamus tinctorius (Safflower) oil or Prunus armeniaca (Apricot kernel) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
         "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
         "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
@@ -77,14 +162,43 @@
       "id": "lotion-4oz",
       "title": "CBD Lotion – 4 oz Jar",
       "price": 50,
-      "thumb_src": "/images/cbd-lotion.jpg",
+      "thumb_src": "/images/flera_biosystems.jpg",
       "thumb_alt": "Flera CBD Lotion 4 oz jar",
       "type": "Lotion",
-      "description": "3,850 mg total CBD • 35 mg/ml • Full-body hydration • THC-free*",
+      "description": "4,200 mg total CBD • 35 mg/ml • Full-body hydration • THC-free*",
       "highlights": ["Large size", "Same silky formula", "Perfect for daily routines"],
       "details": "Our best value lotion size. A 4 oz. premium glass jar with the same fast-absorbing, naturally derived, high CBD formula.",
+      "full_description": "Our best value lotion size. A 4 oz. premium glass jar with the same fast-absorbing, naturally derived, high CBD formula. Perfect for daily full-body application with the same silky texture and therapeutic benefits.",
+      "colors": ["#E6E6FA", "#DDA0DD", "#98FB98"],
+      "images": [
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 4 oz jar"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 4 oz jar side view"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 4 oz jar detail"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 4 oz jar close-up"}
+      ],
+      "rating": 4.8,
+      "reviews": 156,
+      "sizes": {
+        "1 oz": 20,
+        "2 oz": 35,
+        "4 oz": 50
+      },
+      "featuresDetails": {
+        "CBD Concentration": "35 mg/ml",
+        "Total CBD": "4,200 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "4 oz",
+        "Application": "Topical, fast-absorbing"
+      },
+      "data": {
+        "Material": "Premium glass jar with silky lotion formula",
+        "Function": "Full-body daily moisturizing with CBD anti-inflammatory benefits",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply to desired area and massage until absorbed. Safe for daily use."
+      },
+      "stock": true,
       "ingredients": [
-        "THC-free CBD isolate (3,850 mg total, ~0% THC)",
+        "THC-free CBD isolate (4,200 mg total, ~0% THC)",
         "Carthamus tinctorius (Safflower) oil or Prunus armeniaca (Apricot kernel) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
         "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
         "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
@@ -104,14 +218,43 @@
       "id": "lotion-1oz-tube",
       "title": "CBD Lotion – 1 oz Travel Tube",
       "price": 20,
-      "thumb_src": "/images/cbd-lotion.jpg",
+      "thumb_src": "/images/flera_biosystems.jpg",
       "thumb_alt": "Flera CBD Lotion 1 oz travel tube",
       "type": "Lotion",
-      "description": "975 mg total CBD • 35 mg/ml • Travel-friendly • THC-free*",
+      "description": "1,050 mg total CBD • 35 mg/ml • Travel-friendly • THC-free*",
       "highlights": ["TSA-approved", "Squeeze tube", "Same premium formula"],
       "details": "A portable version of our custom lotion — perfect for your purse, gym bag, or travel.",
+      "full_description": "A portable version of our custom lotion — perfect for your purse, gym bag, or travel. TSA-approved size with the same premium formula in a convenient squeeze tube.",
+      "colors": ["#E6E6FA", "#DDA0DD", "#98FB98"],
+      "images": [
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 1 oz travel tube"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 1 oz travel tube side view"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 1 oz travel tube detail"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Lotion 1 oz travel tube close-up"}
+      ],
+      "rating": 4.4,
+      "reviews": 67,
+      "sizes": {
+        "1 oz": 20,
+        "2 oz": 35,
+        "4 oz": 50
+      },
+      "featuresDetails": {
+        "CBD Concentration": "35 mg/ml",
+        "Total CBD": "975 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "1 oz",
+        "Application": "Topical, travel-friendly"
+      },
+      "data": {
+        "Material": "Travel tube with same premium lotion formula",
+        "Function": "Portable daily moisturizing with CBD benefits",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply to desired area and massage until absorbed. TSA-approved for travel."
+      },
+      "stock": true,
       "ingredients": [
-        "THC-free CBD isolate (975 mg total, ~0% THC)",
+        "THC-free CBD isolate (1,050 mg total, ~0% THC)",
         "Carthamus tinctorius (Safflower) oil or Prunus armeniaca (Apricot kernel) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
         "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
         "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
@@ -129,37 +272,141 @@
     },
     {
       "id": "massage-oil",
-      "title": "CBD Massage Oil – 3.4 oz Bottle",
-      "price": 33,
-      "thumb_src": "/images/cbd-massage-oil.jpg",
-      "thumb_alt": "Flera CBD Massage Oil 3.4 oz bottle",
+      "title": "CBD Massage Oil – 2 oz Bottle",
+      "price": 25,
+      "thumb_src": "/images/flera_biosystems.jpg",
+      "thumb_alt": "Flera CBD Massage Oil 2 oz bottle",
       "type": "Massage Oil",
-      "description": "1,500 mg total CBD • 15 mg/ml • Excellent glide • THC-free*",
+      "description": "900 mg total CBD • 15 mg/ml • Excellent glide • THC-free*",
       "highlights": ["Long-lasting slip", "Warming sensation", "Therapist favorite"],
       "details": "A Custom-blended massage oil with THC-free CBD at 15 mg/ml — ideal for generous application. Apricot kernel and jojoba oils provide exceptional glide and skin nourishment without greasiness, while safflower and argan enhance anti-inflammatory effects. Lavender and tea tree oils add therapeutic aroma while also acting as anti-inflammatory and antimicrobials.",
+      "full_description": "A Custom-blended massage oil with THC-free CBD at 15 mg/ml — ideal for generous application. Apricot kernel and jojoba oils provide exceptional glide and skin nourishment without greasiness, while safflower and argan enhance anti-inflammatory effects. Lavender and tea tree oils add therapeutic aroma while also acting as anti-inflammatory and antimicrobials.",
+      "colors": ["#FFE4B5", "#F0E68C", "#DDA0DD"],
+      "images": [
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz bottle"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz bottle side view"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz bottle detail"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz bottle close-up"}
+      ],
+      "rating": 4.9,
+      "reviews": 5,
+      "sizes": {
+        "2 oz": 25,
+        "8 oz": 55
+      },
+      "featuresDetails": {
+        "CBD Concentration": "15 mg/ml",
+        "Total CBD": "900 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "2 oz",
+        "Application": "Massage and therapeutic use"
+      },
+      "data": {
+        "Material": "Premium blend of carrier oils with CBD",
+        "Function": "Therapeutic massage with anti-inflammatory benefits",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply generously for massage. Ideal for professional or home use."
+      },
+      "stock": true,
       "ingredients": [
-        "THC-free CBD isolate (1,500 mg total, ~0% THC)",
+        "THC-free CBD isolate (900 mg total, ~0% THC)",
         "Prunus armeniaca (Apricot) oil",
         "Simmondsia chinensis (Jojoba) oil — [anti-inflammatory wax ester](https://pubmed.ncbi.nlm.nih.gov/15629254/)",
         "Carthamus tinctorius (Safflower) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
         "Argania spinosa (Argan) oil — [reduces burn inflammation](https://pubmed.ncbi.nlm.nih.gov/26978857/)",
         "Melaleuca alternifolia (Tea Tree) oil — [histamine reduction](https://pubmed.ncbi.nlm.nih.gov/12452873/)",
         "Lavandula angustifolia (Lavender) oil — [wound healing](https://pubmed.ncbi.nlm.nih.gov/32589447/)",
-        "Beeswax — [barrier repair](https://pubmed.ncbi.nlm.nih.gov/15022655/)",
+        "Beeswax",
         "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
       ],
       "square_link": "https://square.link/u/zwMzUr1H"
     },
     {
+      "id": "massage-oil-unscented",
+      "title": "CBD Massage Oil – 2 oz Bottle (Unscented)",
+      "price": 25,
+      "thumb_src": "/images/flera_biosystems.jpg",
+      "thumb_alt": "Flera CBD Massage Oil 2 oz bottle – unscented",
+      "type": "Massage Oil",
+      "description": "900 mg total CBD • 15 mg/ml • Excellent glide • Unscented • THC-free*",
+      "highlights": ["Long-lasting slip", "No essential oils", "Ideal for sensitive skin or scent-free environments"],
+      "details": "Same professional-grade massage oil formula as our scented version, but completely unscented — perfect for clients with scent sensitivities, spas that prefer neutral products, or anyone who wants pure CBD therapy without essential oils. Apricot kernel and jojoba oils provide exceptional glide and skin nourishment, while safflower and argan enhance anti-inflammatory effects.",
+      "full_description": "Same professional-grade massage oil formula as our scented version, but completely unscented — perfect for clients with scent sensitivities, spas that prefer neutral products, or anyone who wants pure CBD therapy without essential oils. Apricot kernel and jojoba oils provide exceptional glide and skin nourishment, while safflower and argan enhance anti-inflammatory effects.",
+      "colors": ["#FFE4B5", "#F0E68C", "#FFFFFF"],
+      "images": [
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz bottle – unscented"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz unscented side view"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz unscented detail"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 2 oz unscented close-up"}
+      ],
+      "rating": 5.0,
+      "reviews": 0,
+      "sizes": {
+        "2 oz": 25
+      },
+      "featuresDetails": {
+        "CBD Concentration": "15 mg/ml",
+        "Total CBD": "900 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "2 oz",
+        "Application": "Massage and therapeutic use – scent-free"
+      },
+      "data": {
+        "Material": "Premium unscented carrier oil blend with CBD",
+        "Function": "Therapeutic massage with anti-inflammatory benefits – no fragrance",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply generously for massage. Perfect for scent-sensitive individuals or professional settings. Contact us for larger size orders"
+      },
+      "stock": true,
+      "ingredients": [
+        "THC-free CBD isolate (900 mg total, ~0% THC)",
+        "Prunus armeniaca (Apricot) oil",
+        "Simmondsia chinensis (Jojoba) oil — [anti-inflammatory wax ester](https://pubmed.ncbi.nlm.nih.gov/15629254/)",
+        "Carthamus tinctorius (Safflower) oil — [topical anti-inflammatory](https://pubmed.ncbi.nlm.nih.gov/32216647/)",
+        "Argania spinosa (Argan) oil — [reduces burn inflammation](https://pubmed.ncbi.nlm.nih.gov/26978857/)",
+        "Beeswax",
+        "Salvia rosmarinus (Rosemary) extract — [topical NF-κB inhibition](https://pubmed.ncbi.nlm.nih.gov/17288440/)"
+      ],
+      "square_link": "https://square.link/u/WJGuJGWE" 
+    },
+    {
       "id": "massage-oil-8oz",
       "title": "CBD Massage Oil – 8 oz Bottle",
       "price": 55,
-      "thumb_src": "/images/cbd-massage-oil.jpg",
+      "thumb_src": "/images/flera_biosystems.jpg",
       "thumb_alt": "Flera CBD Massage Oil 8 oz bottle",
       "type": "Massage Oil",
       "description": "3,500 mg total CBD • 15 mg/ml • Professional size • THC-free*",
       "highlights": ["Economy professional size", "Extended sessions", "Same therapeutic blend"],
       "details": "A large bottle for practitioners or heavy home users. Same custom THC-free formula with superior glide from apricot and jojoba oils.",
+      "full_description": "A large bottle for practitioners or heavy home users. Same custom THC-free formula with superior glide from apricot and jojoba oils. Perfect for extended massage sessions and professional use.",
+      "colors": ["#FFE4B5", "#F0E68C", "#DDA0DD"],
+      "images": [
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 8 oz bottle"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 8 oz bottle side view"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 8 oz bottle detail"},
+        {"src": "/images/flera_biosystems.jpg", "alt": "Flera CBD Massage Oil 8 oz bottle close-up"}
+      ],
+      "rating": 4.9,
+      "reviews": 178,
+      "sizes": {
+        "2 oz": 25,
+        "8 oz": 55
+      },
+      "featuresDetails": {
+        "CBD Concentration": "15 mg/ml",
+        "Total CBD": "3,500 mg",
+        "THC Content": "~0% (THC-free)",
+        "Size": "8 oz",
+        "Application": "Professional massage and therapeutic use"
+      },
+      "data": {
+        "Material": "Premium blend of carrier oils with CBD",
+        "Function": "Professional therapeutic massage with anti-inflammatory benefits",
+        "Warranty": "30-day satisfaction guarantee",
+        "Instructions": "Apply generously for massage. Ideal for professional practitioners or extended home use."
+      },
+      "stock": true,
       "ingredients": [
         "THC-free CBD isolate (3,500 mg total, ~0% THC)",
         "Prunus armeniaca (Apricot) oil",
@@ -174,18 +421,101 @@
       "square_link": "https://square.link/u/MwMQ4T6g"
     }
   ],
-
   "categories": [
-    { "title": "All Products",    "collection": "Shop All",     "thumb_src": "/images/category-all.jpg" },
+    { "title": "All Products",    "collection": "Shop All",     "thumb_src": "/images/flera_biosystems.jpg" },
     { "title": "Salves",          "collection": "Topicals",     "thumb_src": "/images/cbd-salve.jpg" },
-    { "title": "Lotions",         "collection": "Daily Care",   "thumb_src": "/images/cbd-lotion.jpg" },
-    { "title": "Massage Oils",    "collection": "Professional", "thumb_src": "/images/cbd-massage-oil.jpg" }
+    { "title": "Lotions",         "collection": "Daily Care",   "thumb_src": "/images/flera_biosystems.jpg" },
+    { "title": "Massage Oils",    "collection": "Professional", "thumb_src": "/images/flera_biosystems.jpg" },
+    { "title": "Best Sellers",    "collection": "Popular",      "thumb_src": "/images/cbd-salve.jpg" },
+    { "title": "New Arrivals",    "collection": "Latest",       "thumb_src": "/images/flera_biosystems.jpg" },
+    { "title": "Special Offers",  "collection": "Deals",        "thumb_src": "/images/flera_biosystems.jpg" }
   ],
-
-  "shoppingCart": ["salve-2oz", "lotion-4oz"],
-  "shoppingCart2": ["massage-oil-8oz", "lotion-1oz-tube"],
-
   "reviews": [],
-
-  "note": "*All CBD is third-party tested and certified below 0.3% THC (typically undetectable)"
+  "orders": [
+    {
+      "orderNumber": 23791,
+      "products": [
+        {
+          "id": "01",
+          "status": "Processed",
+          "quantity": 1,
+          "dateModified": "March 23, 2023"
+        },
+        {
+          "id": "02",
+          "status": "Delivered",
+          "quantity": 3,
+          "dateModified": "June 28, 2023"
+        }
+      ],
+      "payment": {
+        "cardNumber": "0042",
+        "expiringDate": "06/26"
+      },
+      "date": "March 23, 2023",
+      "address": "362 Ridgewood, Alaska 99669, USA",
+      "email": "michael@email.com",
+      "phoneNumber": "(808) 791-6935"
+    },
+    {
+      "orderNumber": "WB2341",
+      "products": [
+        {
+          "id": "03",
+          "status": "Order Placed",
+          "quantity": 1,
+          "dateModified": "March 23, 2023"
+        }
+      ],
+      "payment": {
+        "cardNumber": "4119",
+        "expiringDate": "06/26"
+      },
+      "date": "March 28, 2023",
+      "address": "362 Ridgewood Dr, Soldotna, Alaska 99669, USA",
+      "email": "john@email.com",
+      "phoneNumber": "(307) 612-7721"
+    },
+    {
+      "orderNumber": "010110",
+      "products": [
+        {
+          "id": "04",
+          "status": "Order Placed",
+          "quantity": 1,
+          "dateModified": "Sep 09, 2023"
+        },
+        {
+          "id": "01",
+          "status": "Shipped",
+          "quantity": 1,
+          "dateModified": "Sep 12, 2023"
+        },
+        {
+          "id": "02",
+          "status": "Delivered",
+          "quantity": 1,
+          "dateModified": "Sep 13, 2023"
+        }
+      ],
+      "payment": {
+        "cardNumber": "5290",
+        "expiringDate": "11/27"
+      },
+      "date": "Sep 07, 2023",
+      "address": "362 Ridgewood, Alaska 99669, USA",
+      "email": "doe@email.com",
+      "phoneNumber": "(307) 682-8835"
+    }
+  ],
+  "shoppingCart": [
+    "01", 
+    "02", 
+    "03"
+  ],
+  "shoppingCart2": [ 
+    "02", 
+    "03",
+    "04"
+  ]
 }

@@ -63,6 +63,9 @@ data.orders.forEach((order) => {
   })
 })
 
+// Extract ingredients from data object
+let productIngredients = data.products[0].data?.Ingredients;
+
 ---
 
 <script>
@@ -182,7 +185,7 @@ data.orders.forEach((order) => {
           rating={data.products[0].rating}
           reviews={data.products[0].reviews}
           sizes={data.products[0].sizes}
-          ingredients={data.products[0].data?.Ingredients}
+          ingredients={productIngredients}
         />
       </div>
 

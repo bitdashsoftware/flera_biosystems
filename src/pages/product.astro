@@ -10,6 +10,9 @@ import ReviewSummaryChart from '../components/reviews/reviewSummaryChart';
 
 // filter reviews with ID 01
 let productReviews = data.reviews.filter(x => x.productID == "01");
+
+// Extract ingredients from data object
+let productIngredients = data.products[0].data?.Ingredients;
 ---
 
 <Layout title="Product Page">
@@ -27,7 +30,7 @@ let productReviews = data.reviews.filter(x => x.productID == "01");
         rating={data.products[0].rating}
         reviews={data.products[0].reviews}
         sizes={data.products[0].sizes}
-        ingredients={data.products[0].data?.Ingredients}
+        ingredients={productIngredients}
       />    
 
       <div class="my-5">

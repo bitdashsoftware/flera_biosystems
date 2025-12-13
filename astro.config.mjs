@@ -7,5 +7,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: 'https://www.flerabiosystems.com',
-  base: '/flera_biosystems'
+  base: '/'
 });

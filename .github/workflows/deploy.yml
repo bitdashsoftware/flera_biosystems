@@ -18,6 +18,11 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+      - name: Create uppercase CBD route for case-insensitive routing
+        run: |
+          if [ -f src/pages/cbd.astro ]; then
+            cp src/pages/cbd.astro src/pages/CBD.astro
+          fi
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         # with:

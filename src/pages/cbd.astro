@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import CardProduct from '../components/products/cardProduct';
+import PromoSectionLarge from '../components/promo/promoSectionLarge';
+---
+
+<Layout title="HomepageV2">
+	<main>
+    <Navbar />
+    <!-- <PromoSectionLarge 
+      title={"Collection is here"}
+      full_description={data.products[0].full_description}  
+      pageHeaderBgImg={"../images/bg2.jpg"}
+      pageHeaderMinVh="90vh"
+    /> -->
+    <div class="container my-5">
+      <div class="d-block text-center mb-5">
+        <h3>Our Products</h3>
+      </div>
+      <div class="row mb-5">
+        {data.products.map(product => 
+          <div class="col-md-6 col-lg-3">
+            <CardProduct 
+              thumb_src = {product.thumb_src}
+              thumb_alt = {product.thumb_alt}
+              color = {product.color}
+              colors = {product.colors}
+              title = {product.title}
+              description = {product.description}
+              price = {product.price}
+              position = "left"
+              productId = {product.id}
+            />
+          </div>
+        )}
+      </div>
+    </div>
+    
+    <Footer />
+  </main>
+</Layout>

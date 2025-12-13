@@ -29,13 +29,18 @@ export default function CardProduct({
     ? import.meta.env.BASE_URL 
     : import.meta.env.BASE_URL + '/';
   const productLink = productId ? `${baseUrl}products/${productId}/` : '#';
+  // Handle image path - if image path starts with /, use it as-is (absolute path)
+  // Otherwise, prepend BASE_URL
+  const imageSrc = thumb_src.startsWith('/') 
+    ? thumb_src
+    : `${import.meta.env.BASE_URL}${thumb_src}`;
 
   return (
     <>
       <div className="card card-product border mb-5 shadow-xs border-radius-lg">
         <a href={productLink}>
           <div className="height-350">
-            <img className="w-100 h-100 p-4 rounded-top" src={`${import.meta.env.BASE_URL}${thumb_src}`} alt={thumb_alt} />
+            <img className="w-100 h-100 p-4 rounded-top" src={imageSrc} alt={thumb_alt} />
           </div>
           <div className={classList}>
             {(color) && 

@@ -23,7 +23,10 @@ const product = data.products.find(p => p.id === id);
 
 // If product not found, return 404
 if (!product) {
-  return Astro.redirect('/404');
+  return new Response(null, {
+    status: 404,
+    statusText: 'Not found'
+  });
 }
 
 // Filter reviews for this product (using product ID)

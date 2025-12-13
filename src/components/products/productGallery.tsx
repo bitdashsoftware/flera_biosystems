@@ -8,12 +8,14 @@ interface Props {
 export default function ProductGallery({
   images,
 }: Props) {
-  // Helper function to handle image paths - if image path starts with /, use it as-is (absolute path)
-  // Otherwise, prepend BASE_URL
+  // Helper function to handle image paths
+  // Images from public folder - use absolute paths as-is
+  // If path starts with /, it's already absolute from root
+  const baseUrl = (import.meta.env.BASE_URL || '/').endsWith('/') 
+    ? (import.meta.env.BASE_URL || '/')
+    : (import.meta.env.BASE_URL || '/') + '/';
   const getImageSrc = (src: string) => {
-    return src.startsWith('/') 
-      ? src
-      : `${import.meta.env.BASE_URL}${src}`;
+    return src.startsWith('/') ? src : `${baseUrl}${src}`;
   };
 
   return (

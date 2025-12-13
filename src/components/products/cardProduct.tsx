@@ -25,15 +25,13 @@ export default function CardProduct({
 }: Props) {
 
   const classList = "card-body " + "text-" + position;
-  const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
-    ? import.meta.env.BASE_URL 
-    : import.meta.env.BASE_URL + '/';
+  const baseUrl = (import.meta.env.BASE_URL || '/').endsWith('/') 
+    ? (import.meta.env.BASE_URL || '/')
+    : (import.meta.env.BASE_URL || '/') + '/';
   const productLink = productId ? `${baseUrl}products/${productId}/` : '#';
-  // Handle image path - if image path starts with /, use it as-is (absolute path)
-  // Otherwise, prepend BASE_URL
-  const imageSrc = thumb_src.startsWith('/') 
-    ? thumb_src
-    : `${import.meta.env.BASE_URL}${thumb_src}`;
+  // Images from public folder - use absolute paths as-is
+  // If path starts with /, it's already absolute from root
+  const imageSrc = thumb_src.startsWith('/') ? thumb_src : `${baseUrl}${thumb_src}`;
 
   return (
     <>

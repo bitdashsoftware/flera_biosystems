@@ -106,7 +106,7 @@
       "id": "lotion-2oz",
       "title": "CBD Lotion – 2 oz Jar",
       "price": 35,
-      "thumb_src": "/images/flera_biosystems.png",
+      "thumb_src": "/images/cbd-lotion.png",
       "thumb_alt": "Flera CBD Lotion 2 oz jar",
       "type": "Lotion",
       "description": "2,100 mg total CBD • 35 mg/ml • Fast-absorbing • THC-free*",
@@ -115,10 +115,10 @@
       "full_description": "A new offering from Flera Biosystems, our lightweight, spreadable lotion was custom-formulated in-house with THC-free CBD isolate. This lotion was designed for people desiring a more readily spreadable formulation than our salve. Naturally derived emulsifiers create a silky texture that absorbs quickly without residue. Glycerine draws in moisture, while lavender and tea tree provide a calming aroma and gentle antimicrobial and anti-inflammatory activity. The 35 mg/ml concentration is ideal for broader, daily topical use.",
       "colors": ["#E6E6FA", "#DDA0DD", "#98FB98"],
       "images": [
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 2 oz jar"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 2 oz jar side view"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 2 oz jar detail"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 2 oz jar close-up"}
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 2 oz jar"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 2 oz jar side view"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 2 oz jar detail"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 2 oz jar close-up"}
       ],
       "rating": 4.6,
       "reviews": 94,
@@ -162,7 +162,7 @@
       "id": "lotion-4oz",
       "title": "CBD Lotion – 4 oz Jar",
       "price": 50,
-      "thumb_src": "/images/flera_biosystems.png",
+      "thumb_src": "/images/cbd-lotion.png",
       "thumb_alt": "Flera CBD Lotion 4 oz jar",
       "type": "Lotion",
       "description": "4,200 mg total CBD • 35 mg/ml • Full-body hydration • THC-free*",
@@ -171,10 +171,10 @@
       "full_description": "Our best value lotion size. A 4 oz. premium glass jar with the same fast-absorbing, naturally derived, high CBD formula. Perfect for daily full-body application with the same silky texture and therapeutic benefits.",
       "colors": ["#E6E6FA", "#DDA0DD", "#98FB98"],
       "images": [
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 4 oz jar"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 4 oz jar side view"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 4 oz jar detail"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 4 oz jar close-up"}
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 4 oz jar"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 4 oz jar side view"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 4 oz jar detail"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 4 oz jar close-up"}
       ],
       "rating": 4.8,
       "reviews": 156,
@@ -218,7 +218,7 @@
       "id": "lotion-1oz-tube",
       "title": "CBD Lotion – 1 oz Travel Tube",
       "price": 20,
-      "thumb_src": "/images/flera_biosystems.png",
+      "thumb_src": "/images/cbd-lotion.png",
       "thumb_alt": "Flera CBD Lotion 1 oz travel tube",
       "type": "Lotion",
       "description": "1,050 mg total CBD • 35 mg/ml • Travel-friendly • THC-free*",
@@ -227,10 +227,10 @@
       "full_description": "A portable version of our custom lotion — perfect for your purse, gym bag, or travel. TSA-approved size with the same premium formula in a convenient squeeze tube.",
       "colors": ["#E6E6FA", "#DDA0DD", "#98FB98"],
       "images": [
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 1 oz travel tube"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 1 oz travel tube side view"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 1 oz travel tube detail"},
-        {"src": "/images/flera_biosystems.png", "alt": "Flera CBD Lotion 1 oz travel tube close-up"}
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 1 oz travel tube"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 1 oz travel tube side view"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 1 oz travel tube detail"},
+        {"src": "/images/cbd-lotion.png", "alt": "Flera CBD Lotion 1 oz travel tube close-up"}
       ],
       "rating": 4.4,
       "reviews": 67,

@@ -83,7 +83,7 @@ export default function ProductOverview({
               </div>
             }
 
-            <button className="btn btn-dark btn-lg" type="submit">Add to cart</button>
+            {/* <button className="btn btn-dark btn-lg" type="submit">Add to cart</button> */}
           </form>
         </div>
       </div>

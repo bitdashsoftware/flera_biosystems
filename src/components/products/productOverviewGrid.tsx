@@ -71,8 +71,8 @@ export default function ProductOverview({
           {(title.length != 0) && 
             <h2 className="mt-4">{title}</h2>
           }
-          {(full_description.length != 0) && 
-            <p className="mb-5">{full_description}</p>
+          {(details.length != 0) && 
+            <p className="mb-5">{details}</p>
           }
 
           <form action="" method="post">
@@ -83,19 +83,6 @@ export default function ProductOverview({
               </div>
             }
 
-            {(rating != 0) && 
-            <>
-              <h3 className="sr-only">Reviews</h3>
-              <div className="d-flex">
-                <ProductRating rating={4} />
-                <span className="ms-3">{reviews} reviews</span>
-              </div>
-            </>
-            }
-            
-            {(sizes.size != 0) && 
-              <ProductSizes sizes={sizes}/>
-            }
             <button className="btn btn-dark btn-lg" type="submit">Add to cart</button>
           </form>
         </div>
@@ -104,7 +91,9 @@ export default function ProductOverview({
       <div className="row mt-5">
         <div className="col-12 col-lg-6">
           <h4>Product Description</h4>
-          <p>There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment.</p>
+          {full_description && (
+            <p>{full_description}</p>
+          )}
           {(highlights.length != 0) && 
            <>
              <h6>Benefits</h6>
@@ -115,12 +104,6 @@ export default function ProductOverview({
               </ul>
            </>
           }
-           {(details.length != 0) && 
-            <>
-              <h6>More about product</h6>
-              <p>{details}</p>
-            </>
-           }
           {(ingredients && ingredients.length > 0) && 
             <>
               <h6 className="mt-4">Ingredients</h6>

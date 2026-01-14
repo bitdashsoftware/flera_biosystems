@@ -17,6 +17,7 @@ interface Props {
   reviews: number;
   sizes: Map<string,number>;
   ingredients?: string[];
+  square_link?: string;
 }
 
 export default function ProductOverview({
@@ -30,7 +31,8 @@ export default function ProductOverview({
   rating,
   reviews,
   sizes,
-  ingredients
+  ingredients,
+  square_link
 }: Props) {
 
   // Helper function to parse markdown-style links in ingredient strings
@@ -75,16 +77,29 @@ export default function ProductOverview({
             <p className="mb-5">{details}</p>
           }
 
-          <form action="" method="post">
-            {(price != 0) && 
-              <div className="d-flex">
-                <h3 className="font-weight-normal">${price.toLocaleString()}</h3>
-                <input className="opacity-0" defaultValue={price} />
-              </div>
-            }
+          {(price != 0) && 
+            <div className="d-flex mb-4">
+              <h3 className="font-weight-normal">${price.toLocaleString()}</h3>
+            </div>
+          }
 
-            {/* <button className="btn btn-dark btn-lg" type="submit">Add to cart</button> */}
-          </form>
+          {square_link && square_link.trim() !== '' && (
+            <div className="mt-4 mb-4">
+              <a 
+                href={square_link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-lg w-100 w-md-auto"
+                style={{ 
+                  minWidth: '200px',
+                  display: 'inline-block',
+                  textAlign: 'center'
+                }}
+              >
+                Buy Now
+              </a>
+            </div>
+          )}
         </div>
       </div>
       

@@ -7,7 +7,7 @@ interface Props {
   description: string;
   price: number;
   color: string;
-  colors: string[];
+  colors?: string[];
   position: string;
   productId?: string;
 }

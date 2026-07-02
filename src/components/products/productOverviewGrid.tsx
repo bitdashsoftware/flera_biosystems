@@ -16,6 +16,7 @@ interface Props {
   rating: number;
   reviews: number;
   sizes: Map<string,number>;
+  versions?: string[];
   ingredients?: string[];
   square_link?: string;
 }
@@ -31,6 +32,7 @@ export default function ProductOverview({
   rating,
   reviews,
   sizes,
+  versions,
   ingredients,
   square_link
 }: Props) {
@@ -106,9 +108,9 @@ export default function ProductOverview({
       <div className="row mt-5">
         <div className="col-12 col-lg-6">
           <h4>Product Description</h4>
-          {full_description && (
-            <p>{full_description}</p>
-          )}
+          {full_description && full_description.split(/\n+/).filter(para => para.trim() !== '').map((para, index) => (
+            <p key={index}>{para}</p>
+          ))}
           {(highlights.length != 0) && 
            <>
              <h6>Benefits</h6>
@@ -119,7 +121,17 @@ export default function ProductOverview({
               </ul>
            </>
           }
-          {(ingredients && ingredients.length > 0) && 
+          {(versions && versions.length > 0) &&
+            <>
+              <h6 className="mt-4">Versions &amp; Sizing</h6>
+              <ul className="text-sm">
+                {versions.map((version, index) => (
+                  <li key={index} className="mb-2">{version}</li>
+                ))}
+              </ul>
+            </>
+          }
+          {(ingredients && ingredients.length > 0) &&
             <>
               <h6 className="mt-4">Ingredients</h6>
               <ul className="text-sm">

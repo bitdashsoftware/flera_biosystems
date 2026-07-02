@@ -513,9 +513,46 @@
     "02", 
     "03"
   ],
-  "shoppingCart2": [ 
-    "02", 
+  "shoppingCart2": [
+    "02",
     "03",
     "04"
-  ]
+  ],
+  "pelvicWand": {
+    "title": "Pelvic Wand",
+    "price": 50.0,
+    "details": "An ergonomic, body-safe self-care tool for comfortable, intuitive pelvic self-massage — developed with input from pelvic floor physical therapists.",
+    "full_description": "Discover a thoughtfully designed tool for comfortable, intuitive self-massage in the pelvic region. The pelvic wand's ergonomic shape allows for precise control and gentle exploration, making it easy to incorporate into your personal relaxation and body-awareness practices.\n\nCrafted from premium body-safe materials that are smooth, durable, and easy to clean, this wand is built for comfortable, repeated use. Its versatile design supports a variety of gentle techniques to help you unwind and connect with your body in a way that feels right for you.\n\nThis product was developed with input from experienced pelvic floor physical therapists to ensure it's user-friendly and effective for personal wellness routines.\n\nHow to use: Incorporate into your self-care practice as desired. Many people find it helpful for promoting relaxation and body awareness. We recommend listening to your body and consulting a qualified pelvic floor professional if you'd like personalized guidance on techniques or integration into your routine.\n\nCare: Rinse with warm water and mild soap after each use. Allow to air dry. Store in a clean, dry place.\n\nThis is a general wellness and personal care tool. It is not a medical device and is not intended to diagnose, treat, cure, or prevent any condition.",
+    "highlights": [
+      "Ergonomic, comfortable shape for easy handling",
+      "Body-safe, smooth finish that's easy to clean",
+      "Versatile for different self-massage approaches",
+      "Developed with input from pelvic floor physical therapists"
+    ],
+    "versions": [
+      "Small — 15 mm diameter",
+      "Ergo — tapered, 8 mm–20 mm",
+      "Large — 25 mm diameter"
+    ],
+    "ingredients": [],
+    "images": [
+      {
+        "src": "/images/Wand-Render-15mm.jpg",
+        "alt": "Pelvic Wand — Small (15 mm)"
+      },
+      {
+        "src": "/images/Wand-Render-Ergo-1.jpg",
+        "alt": "Pelvic Wand — Ergo (tapered)"
+      },
+      {
+        "src": "/images/Wand-Render-25mm-1.png.jpg",
+        "alt": "Pelvic Wand — Large (25 mm)"
+      }
+    ],
+    "square_link": "https://square.link/u/sDqQ90N2",
+    "colors": [],
+    "rating": 0,
+    "reviews": 0,
+    "sizes": {}
+  }
 }

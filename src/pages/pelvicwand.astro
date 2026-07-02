@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import ProductOverviewGrid from '../components/products/productOverviewGrid';
+
+// Standalone product: the pelvic wand lives outside the `products` array in
+// data.json, so it never appears in the homepage grid, /products/[id] routes,
+// or "Customers also purchased". Edit content in public/data.json -> pelvicWand.
+const p = data.pelvicWand;
+---
+
+<Layout title={p.title}>
+	<main>
+    <Navbar />
+    <div class="container mt-5">
+      <ProductOverviewGrid
+        client:load
+        colors={p.colors}
+        images={p.images}
+        title={p.title}
+        full_description={p.full_description}
+        price={p.price}
+        highlights={p.highlights}
+        details={p.details}
+        rating={p.rating}
+        reviews={p.reviews}
+        sizes={p.sizes}
+        versions={p.versions}
+        ingredients={p.ingredients}
+        square_link={p.square_link}
+      />
+    </div>
+    <Footer />
+  </main>
+</Layout>

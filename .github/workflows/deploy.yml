@@ -23,6 +23,11 @@ jobs:
           if [ -f src/pages/cbd.astro ]; then
             cp src/pages/cbd.astro src/pages/CBD.astro
           fi
+      - name: Create cased PelvicWand route for case-insensitive routing
+        run: |
+          if [ -f src/pages/pelvicwand.astro ]; then
+            cp src/pages/pelvicwand.astro src/pages/PelvicWand.astro
+          fi
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         # with:

@@ -35,6 +35,11 @@ const Navbar = () => {
                     </a>
                   </li>
                 ))}
+                <li key="pelvicwand">
+                  <a className="dropdown-item" href={`${baseUrl}pelvicwand`}>
+                    Pelvic Wand
+                  </a>
+                </li>
               </ul>
             </li>
           </ul>

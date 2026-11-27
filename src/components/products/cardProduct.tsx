@@ -10,6 +10,7 @@ interface Props {
   colors?: string[];
   position: string;
   productId?: string;
+  variationId?: string;
 }
 
 export default function CardProduct({
@@ -21,7 +22,8 @@ export default function CardProduct({
   color,
   colors,
   position,
-  productId
+  productId,
+  variationId
 }: Props) {
 
   const classList = "card-body " + "text-" + position;
@@ -59,7 +61,7 @@ export default function CardProduct({
             }
             
             {(price) && 
-              <h4 className="mb-0 text-lg mt-1 mb-3">
+              <h4 className="mb-0 text-lg mt-1 mb-3" data-price-for={variationId || undefined}>
                 ${price.toLocaleString()}
               </h4>
             }

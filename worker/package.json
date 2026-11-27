@@ -1,0 +1,15 @@
+{
+  "name": "flera-checkout-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy:sandbox": "wrangler deploy",
+    "deploy:production": "wrangler deploy --env production"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261127.1",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.169.0"
+  }
+}

@@ -1,6 +1,7 @@
 import ProductRating from '../reviews/reviewRating'
 import ProductGallery from './productGallery'
 import ProductSizes from './productSizes'
+import AddToCart, { type Variant } from '../cart/addToCart'
 
 interface Props {
   title: string;
@@ -19,6 +20,10 @@ interface Props {
   versions?: string[];
   ingredients?: string[];
   square_link?: string;
+  square_variation_id?: string;
+  variants?: Variant[];
+  thumb?: string;
+  href?: string;
 }
 
 export default function ProductOverview({
@@ -34,8 +39,16 @@ export default function ProductOverview({
   sizes,
   versions,
   ingredients,
-  square_link
+  square_link,
+  square_variation_id,
+  variants,
+  thumb,
+  href
 }: Props) {
+
+  // Cart checkout needs a Square catalog variation ID. Until one is set for a
+  // product, fall back to its single-item Square payment link.
+  const canCart = Boolean(square_variation_id) || Boolean(variants?.some(v => v.square_variation_id));
 
   // Helper function to parse markdown-style links in ingredient strings
   const parseIngredient = (ingredient: string) => {
@@ -79,28 +92,41 @@ export default function ProductOverview({
             <p className="mb-5">{details}</p>
           }
 
-          {(price != 0) && 
-            <div className="d-flex mb-4">
-              <h3 className="font-weight-normal">${price.toLocaleString()}</h3>
-            </div>
-          }
+          {canCart ? (
+            <AddToCart
+              title={title}
+              price={price}
+              thumb={thumb ?? images[0]?.src}
+              href={href}
+              square_variation_id={square_variation_id}
+              variants={variants}
+            />
+          ) : (
+            <>
+              {(price != 0) && 
+                <div className="d-flex mb-4">
+                  <h3 className="font-weight-normal">${price.toLocaleString()}</h3>
+                </div>
+              }
 
-          {square_link && square_link.trim() !== '' && (
-            <div className="mt-4 mb-4">
-              <a 
-                href={square_link} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn btn-primary btn-lg w-100 w-md-auto"
-                style={{ 
-                  minWidth: '200px',
-                  display: 'inline-block',
-                  textAlign: 'center'
-                }}
-              >
-                Buy Now
-              </a>
-            </div>
+              {square_link && square_link.trim() !== '' && (
+                <div className="mt-4 mb-4">
+                  <a 
+                    href={square_link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-primary btn-lg w-100 w-md-auto"
+                    style={{ 
+                      minWidth: '200px',
+                      display: 'inline-block',
+                      textAlign: 'center'
+                    }}
+                  >
+                    Buy Now
+                  </a>
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>

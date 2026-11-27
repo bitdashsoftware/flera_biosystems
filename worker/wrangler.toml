@@ -1,0 +1,24 @@
+name = "flera-checkout"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+# Default (`wrangler dev`, `wrangler deploy`) targets the Square SANDBOX.
+# Production is a separate Worker: `wrangler deploy --env production`.
+# The Square token is a secret, set per environment:
+#   wrangler secret put SQUARE_ACCESS_TOKEN
+#   wrangler secret put SQUARE_ACCESS_TOKEN --env production
+
+[vars]
+SQUARE_ENV = "sandbox"
+SQUARE_LOCATION_ID = "LVJS4C21WVZ8W"
+ALLOWED_ORIGINS = "http://localhost:4321,http://127.0.0.1:4321"
+REDIRECT_URL = "http://localhost:4321/order-confirmed/"
+
+[env.production]
+name = "flera-checkout-prod"
+
+[env.production.vars]
+SQUARE_ENV = "production"
+SQUARE_LOCATION_ID = "LX63255JCQ63Z"
+ALLOWED_ORIGINS = "https://www.flerabiosystems.com,https://flerabiosystems.com"
+REDIRECT_URL = "https://www.flerabiosystems.com/order-confirmed/"

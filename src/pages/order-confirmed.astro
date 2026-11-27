@@ -1,0 +1,106 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+
+// Square sends the buyer here after payment. The script below asks the
+// checkout Worker whether the order the buyer was sent to pay for is actually
+// paid, and only then shows the confirmation and empties the cart.
+---
+
+<Layout title="Order Confirmed">
+	<main>
+    <Navbar />
+    <div class="container my-7 text-center" style="max-width: 640px;">
+      <div id="order-checking">
+        <h2 class="mt-3">Checking your order…</h2>
+      </div>
+      <div id="order-yes" hidden>
+        <i class="bi bi-check-circle text-success" style="font-size: 3rem;"></i>
+        <h2 class="mt-3">Thank you for your order</h2>
+        <p class="lead">
+          Your payment went through. Square will email your receipt, and we'll
+          ship your order to the address you entered at checkout.
+        </p>
+        <p class="text-sm">Order reference: <code id="order-ref"></code></p>
+      </div>
+      <div id="order-unpaid" hidden>
+        <h2 class="mt-3">We couldn't confirm your payment</h2>
+        <p class="lead">
+          Your order doesn't show as paid yet, and your cart has been kept. If
+          you did complete payment, your receipt email from Square is your
+          confirmation.
+        </p>
+        <a href={`${import.meta.env.BASE_URL}shopping-cart/`} class="btn btn-outline-dark btn-lg mt-2">Back to Cart</a>
+      </div>
+      <div id="order-unknown" hidden>
+        <h2 class="mt-3">Thanks for visiting</h2>
+        <p class="lead">
+          We couldn't look up your order just now. If you completed payment,
+          your receipt email from Square is your confirmation.
+        </p>
+      </div>
+      <div id="order-none" hidden>
+        <h2 class="mt-3">No recent order found</h2>
+        <p class="lead">
+          This page confirms an order right after payment. If you just paid and
+          are seeing this, your receipt email from Square is your confirmation.
+        </p>
+      </div>
+      <div>
+        <a href={import.meta.env.BASE_URL} class="btn btn-dark btn-lg mt-4">Continue Shopping</a>
+      </div>
+    </div>
+    <Footer />
+  </main>
+</Layout>
+
+<script>
+  import { clearCart, getPendingOrder, clearPendingOrder } from '../lib/cart';
+  import { API_BASE } from '../lib/prices';
+
+  const show = (id: string) => {
+    for (const el of document.querySelectorAll<HTMLElement>('[id^="order-"]')) {
+      if (el.tagName === 'DIV') el.hidden = el.id !== id;
+    }
+  };
+  const valid = (v: string | null): v is string => !!v && /^[A-Za-z0-9_-]{1,64}$/.test(v);
+
+  const fromUrl = new URLSearchParams(window.location.search).get('orderId');
+  const pending = getPendingOrder();
+  const orderId = valid(pending) ? pending : valid(fromUrl) ? fromUrl : null;
+
+  async function isPaid(id: string): Promise<boolean | null> {
+    if (!API_BASE) return null;
+    // Square can take a moment to mark the order paid after redirecting.
+    for (let attempt = 0; attempt < 4; attempt++) {
+      try {
+        const res = await fetch(`${API_BASE}/order-status?orderId=${encodeURIComponent(id)}`, { cache: 'no-store' });
+        if (!res.ok) return null;
+        if ((await res.json()).paid === true) return true;
+      } catch {
+        return null;
+      }
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+    return false;
+  }
+
+  if (!orderId) {
+    show('order-none');
+  } else {
+    isPaid(orderId).then((paid) => {
+      if (paid === true) {
+        clearCart();
+        clearPendingOrder();
+        document.getElementById('order-ref')!.textContent = orderId;
+        show('order-yes');
+      } else if (paid === false) {
+        show('order-unpaid');
+      } else {
+        show('order-unknown');
+      }
+    });
+  }
+</script>

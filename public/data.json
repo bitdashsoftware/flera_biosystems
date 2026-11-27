@@ -49,7 +49,8 @@
         ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/3g5Hgd1y"
+      "square_link": "https://square.link/u/3g5Hgd1y",
+      "square_variation_id": "KIVJU6ITIFXHWOLOMCD2EB5W"
     },
     {
       "id": "salve-4oz",
@@ -100,7 +101,8 @@
         ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/VfzGVeB5"
+      "square_link": "https://square.link/u/VfzGVeB5",
+      "square_variation_id": "MCE2QI4GBI65QPXGF2EKFFJR"
     },
     {
       "id": "lotion-2oz",
@@ -156,7 +158,8 @@
       ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/v9fzUtKw"
+      "square_link": "https://square.link/u/v9fzUtKw",
+      "square_variation_id": "JSD3RTKUOOL3E6JK67RDNWE5"
     },
     {
       "id": "lotion-4oz",
@@ -212,7 +215,8 @@
         ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/t08KffxW"
+      "square_link": "https://square.link/u/t08KffxW",
+      "square_variation_id": "EPSFAZAGTRC2F7GMWS6AC6L7"
     },
     {
       "id": "lotion-1oz-tube",
@@ -268,7 +272,8 @@
       ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/sTTC42Tz"
+      "square_link": "https://square.link/u/sTTC42Tz",
+      "square_variation_id": "W3UEFIRF3XVVUJZGGTCHQLQ6"
     },
     {
       "id": "massage-oil",
@@ -319,7 +324,8 @@
       ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/zwMzUr1H"
+      "square_link": "https://square.link/u/zwMzUr1H",
+      "square_variation_id": "P55NBKXS6JXE3D4TDEN7SYYO"
     },
     {
       "id": "massage-oil-unscented",
@@ -367,7 +373,8 @@
       ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/WJGuJGWE" 
+      "square_link": "https://square.link/u/WJGuJGWE",
+      "square_variation_id": "6T43ISW7557JSPUB7TSNDEFF"
     },
     {
       "id": "massage-oil-8oz",
@@ -418,7 +425,8 @@
       ]
       },
       "stock": true,
-      "square_link": "https://square.link/u/MwMQ4T6g"
+      "square_link": "https://square.link/u/MwMQ4T6g",
+      "square_variation_id": "ZW5AERQUBPC5VMDE5SOADWGX"
     }
   ],
   "categories": [
@@ -550,6 +558,11 @@
       }
     ],
     "square_link": "https://square.link/u/sDqQ90N2",
+    "variants": [
+      { "label": "Small — 15 mm diameter", "square_variation_id": "3X4OV7EFM2OOBB65EIZJSTQ5" },
+      { "label": "Ergo — tapered, 8 mm–20 mm", "square_variation_id": "RCP3ASKBAGCRFJKMPCHMHMFT" },
+      { "label": "Large — 25 mm diameter", "square_variation_id": "3RAFMLPUDVXXODITMGJC7VJS" }
+    ],
     "colors": [],
     "rating": 0,
     "reviews": 0,

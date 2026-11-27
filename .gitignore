@@ -7,3 +7,7 @@ build-product/
 dist/
 package-lock.json
 .astro/
+# Worker secrets and local state
+.dev.vars
+.dev.vars.*
+.wrangler/

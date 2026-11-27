@@ -42,6 +42,13 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
+            <li className="nav-item">
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href={`${baseUrl}shopping-cart/`} aria-label="Shopping cart">
+                <i className="bi bi-cart me-1"></i>
+                Cart
+                <span className="badge rounded-pill ms-1 cart-count" style={{ backgroundColor: '#1f2937', color: '#fff' }} hidden></span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
